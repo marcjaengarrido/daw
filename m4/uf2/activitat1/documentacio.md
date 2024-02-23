@@ -1,9 +1,8 @@
-h
-
+Aqui es veu com blah
 ```py
 root_element = arxiuXML.documentElement
 ```
-
+Blah blah
 ```py
 treballadors = arxiuXML.getElementsByTagName("person")
     print(treballador.getElementsByTagName("name")[0].firstChild.nodeValue)
