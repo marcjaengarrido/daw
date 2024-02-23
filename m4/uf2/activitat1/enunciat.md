@@ -26,6 +26,7 @@ toxml()
            <li>maixement - 2002-05-11</li>
        </ul>
    </body>
-</html>```
+</html>
+```
 
 6. El mateix que 5 però desat en un fitxer html i no escrit per pantalla.
