@@ -1,3 +1,4 @@
+# ENUNCIAT
 1. Programa que llegeix un xml i treu per pantalla el nom de l'element arrel.
 
 `introduim parse()` i `Document.documentElement`
