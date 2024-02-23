@@ -1,10 +1,10 @@
-### Aqui es veu com blah
-```py
-root_element = arxiuXML.documentElement
-```
-### Blah blah
+# Documentació
+
+La funció `.getElementsByTagName()` agafa tots els valors que coincideixin. Per tant, si per exemple tenim 3 elements amb el mateix nom, la funció ens tornarà una llista amb aquestos elements.
+Es per això mateix que en fiquem un for. Volem mostrar el nom de cada treballador. Un nom PER CADA treballador. 
 ```py
 treballadors = arxiuXML.getElementsByTagName("person")
+for treballador in treballadors
     print(treballador.getElementsByTagName("name")[0].firstChild.nodeValue)
 ```
 
