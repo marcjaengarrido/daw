@@ -7,7 +7,7 @@ treballadors = arxiuXML.getElementsByTagName("person")
 for treballador in treballadors
     print(treballador.getElementsByTagName("name")[0].firstChild.nodeValue)
 ```
-
+Hola
 ```py
 treballador.getElementsByTagName('name')[0].getAttribute('gender')
 ```
