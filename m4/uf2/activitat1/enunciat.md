@@ -11,7 +11,11 @@ getAttribute()
 toxml()
 
 5. Generar un document html per pantalla a partir d'un xml. Hauria de ser alguna cosa així (independent del contingut de cada element person i del nombre d'elements person):
-```<html><head><title>Diaris DOM</title></head>
+```
+<html>
+   <head>
+      <title>Diaris DOM</title>
+   </head>
    <body>
        <h2>P001 - John</h2>
        <ul>
