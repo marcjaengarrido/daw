@@ -29,7 +29,8 @@ for treballador in treballadors:
     textHTML += f"<h2>{IDTreballador} - {nomTreballador}</h2><ul><li>age - {edadTreballador}</li><li>sex - {sexeTreballador}</li><li>naixement - {naixement}</li></ul>"
 textHTML += "</body></html>"
 ```
-
+---
+Bla blka 2
 ```py
 with open("resultat.html", "w") as arxiu:
     arxiu.write(textHTML)
