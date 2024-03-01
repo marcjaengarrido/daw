@@ -25,9 +25,13 @@ Vaig a posar per exemple
   </menjar>
 </menjars>
 ```
+Tenint en compte que tomem com a base el següent codi
+```py
+rael.getElementsByTagName('menjars')[0].getElementsByTagName('menjar')[0]
+```
 | Com accedir-hi al valor | Valor |
 | ----------------------- | ----------------------- |
-| Celda 1,1               | js Celda 1,2               |
+| `.getAttribute('premium')` | si               |
 | Celda 2,1               | Celda 2,2               |
 ---
 Bla bla bla
