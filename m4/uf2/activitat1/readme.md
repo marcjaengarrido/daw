@@ -29,13 +29,13 @@ Tenint en compte que tomem com a base el següent codi
 ```py
 rael.getElementsByTagName('menjars')[0].getElementsByTagName('menjar')[0]
 ```
-| Com accedir-hi al valor | Valor |
+| Valor | Com accedir-hi al valor |
 | ----------------------- | ----------------------- |
-| `.getAttribute('premium')` | si               |
-| `.getAttribute('ocult')` | no               |
-| `.getAttribute('identificador')` | 302               |
-| `.getElementsByTagName('nom')[0].firstChild.nodeValue` | Pizza rica               |
-| `.getElementsByTagName('preu')[0].firstChild.nodeValue` | 19.99               |
+|si| `.getAttribute('premium')` |
+|no| `.getAttribute('ocult')` |
+|302| `.getAttribute('identificador')` |
+|Pizza rica| `.getElementsByTagName('nom')[0].firstChild.nodeValue` |
+|19.99| `.getElementsByTagName('preu')[0].firstChild.nodeValue` |
 
 ---
 Bla bla bla
