@@ -1,7 +1,11 @@
 # Documentació
 
-La funció `.getElementsByTagName()` agafa tots els valors que coincideixin. Per tant, si per exemple tenim 3 elements amb el mateix nom, la funció ens tornarà una llista amb aquestos elements.
+> Aquesta documentació es basa en explicar el funcionament del que sembla més complexe i/o avançat a l'activitat 1
+
+La funció `.getElementsByTagName()` agafa tots els valors que coincideixin amb el parámetre. Per tant, si per exemple tenim 3 elements amb el mateix nom, la funció ens tornarà una llista amb aquestos elements.
 Es per això mateix que en fiquem un for. Volem mostrar el nom de cada treballador. Un nom PER CADA treballador. 
+<br>Com ja sabem, la funció `.getElementsByTagName()` busca a elements a través del nom indicat. la funció es per així dir-ho una propietat de treballador, que en aquest cas és un sol element tret de treballadors. Estem buscant elements DINS de teballador.
+<br>Finalment, per a extreure el valor de l'element resultant li fem `.firstChild.nodeValue`
 ```py
 treballadors = arxiuXML.getElementsByTagName("person")
 for treballador in treballadors
