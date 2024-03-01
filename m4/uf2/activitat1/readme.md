@@ -16,6 +16,10 @@ Aquí en lloc d'extreure el valor, volem l'atribut. En aquest cas, fem servir un
 ```py
 treballador.getElementsByTagName('name')[0].getAttribute('gender')
 ```
+| Com accedir-hi al valor | Valor |
+| ----------------------- | ----------------------- |
+| Celda 1,1               | Celda 1,2               |
+| Celda 2,1               | Celda 2,2               |
 ---
 Bla bla bla
 ```py
