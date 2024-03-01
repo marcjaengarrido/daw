@@ -51,7 +51,7 @@ for treballador in treballadors:
 textHTML += "</body></html>"
 ```
 ---
-Bla blka 2
+Finalment generem l'arxiu .html. Aquí simplement especifiquem que obrim un arxiu amb permissos d'escriptura (`open("archivo", "w")`) i hi llançem tot el contingut de `textHTML` a l'arxiu.
 ```py
 with open("resultat.html", "w") as arxiu:
     arxiu.write(textHTML)
