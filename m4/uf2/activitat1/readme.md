@@ -38,7 +38,7 @@ rael.getElementsByTagName('menjars')[0].getElementsByTagName('menjar')[0]
 |19.99| `.getElementsByTagName('preu')[0].firstChild.nodeValue` |
 
 ---
-Bla bla bla
+Aquí només juntem el que ja sabem parlant en térmes d'obtenir informació... Lo més avançat que trobem potser es la forma amb la cuál generem el `textHTML`. Començcem posant el `<head>` i l'inici del `<body>` i per cada treballador fem una estructura html que fa sentit per si misma. Després en sortir del bucle simplement tanquem el `<body>` i ja.
 ```py
 textHTML = "<html><head><title>Diaris DOM</title></head><body>"
 for treballador in treballadors:
