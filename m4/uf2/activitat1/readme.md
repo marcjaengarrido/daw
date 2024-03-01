@@ -16,8 +16,8 @@ Aquí en lloc d'extreure el valor, volem l'atribut. En aquest cas, fem servir un
 ```py
 treballador.getElementsByTagName('name')[0].getAttribute('gender')
 ```
-Bla bla bla
 ---
+Bla bla bla
 ```py
 textHTML = "<html><head><title>Diaris DOM</title></head><body>"
 for treballador in treballadors:
