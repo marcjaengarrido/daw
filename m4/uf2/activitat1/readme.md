@@ -1,10 +1,9 @@
 # Documentació
 ![gif épico](https://raw.githubusercontent.com/marcjaengarrido/daw/main/m4/uf2/activitat1/python.gif)
 
-<details>
-<summary>Nota</summary>
-L'objectiu d'aquesta documentació és explicar el funcionament del que sembla més complexe i/o avançat a l'activitat 1 [pepe](https://google.com)
-</details>
+
+> L'objectiu d'aquesta documentació és explicar el funcionament del que sembla més complexe i/o avançat a [l'activitat 1](https://google.com).
+
 
 ---
 La funció `.getElementsByTagName()` agafa tots els valors que coincideixin amb el parámetre. Per tant, si per exemple tenim 3 elements amb el mateix nom, la funció ens tornarà una llista amb aquestos elements.
