@@ -3,7 +3,7 @@
 
 <details>
 <summary>Nota</summary>
-Aquesta documentació es basa en explicar el funcionament del que sembla més complexe i/o avançat a l'activitat 1
+L'objectiu d'aquesta documentació és explicar el funcionament del que sembla més complexe i/o avançat a l'activitat 1
 </details>
 
 ---
