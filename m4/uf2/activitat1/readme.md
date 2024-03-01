@@ -2,7 +2,7 @@
 ![gif épico](https://raw.githubusercontent.com/marcjaengarrido/daw/main/m4/uf2/activitat1/python.gif)
 
 
-> L'objectiu d'aquesta documentació és explicar el funcionament del que sembla més complexe i/o avançat a [l'activitat 1](https://github.com/marcjaengarrido/daw/blob/main/m4/uf2/activitat1/enunciat.md).
+> L'objectiu d'aquesta documentació és explicar el funcionament del que sembla més complexe i/o avançat a l'[activitat 1](https://github.com/marcjaengarrido/daw/blob/main/m4/uf2/activitat1/enunciat.md).
 
 
 ---
