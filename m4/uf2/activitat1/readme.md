@@ -19,7 +19,7 @@ treballador.getElementsByTagName('name')[0].getAttribute('gender')
 Vaig a posar per exemple
 ```html
 <menjars>
-  <menjar premium="si" ocult="no">
+  <menjar premium="si" ocult="no" identificador="302">
     <nom>Pizza rica</nom>
     <preu>19.99</preu>
   </menjar>
@@ -32,7 +32,11 @@ rael.getElementsByTagName('menjars')[0].getElementsByTagName('menjar')[0]
 | Com accedir-hi al valor | Valor |
 | ----------------------- | ----------------------- |
 | `.getAttribute('premium')` | si               |
-| Celda 2,1               | Celda 2,2               |
+| `.getAttribute('ocult')` | no               |
+| `.getAttribute('identificador')` | 302               |
+| `.getElementsByTagName('nom')[0].firstChild.nodeValue` | Pizza rica               |
+| `.getElementsByTagName('preu')[0].firstChild.nodeValue` | 19.99               |
+
 ---
 Bla bla bla
 ```py
