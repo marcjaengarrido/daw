@@ -1,0 +1,104 @@
+
+.galeria{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 30s linear infinite;
+    top: 150px;
+    left: 40%;
+}
+
+@keyframes rotate {
+    from {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+    
+    to {
+        transform: perspective(1200px) rotateY(360deg);
+    }
+}
+
+.galeria span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--lado) * 45deg)) translateZ(580px);
+}
+
+.galeria span img, video {
+    position: absolute;
+    width: auto;
+    height: 150%;
+}
+
+img:not(.imagenPopup):hover {
+    transform: scale(1.1);
+    transition: all 100ms;
+    cursor: pointer;
+}
+
+
+.popup {
+    /*background-color: red;*/
+    margin-top: -10%;
+    width: 100%;
+    display: none;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.imagenPopup {
+    height: 31vw;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+}
+
+.fondoNegro {
+    width: 100%;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.808);
+}
+
+.navegacion {
+    margin-top: 30px;
+    display:grid;
+    grid-template-columns: 1fr; 
+    position: relative;
+}
+
+.botonesPaginador {
+    /*background-color: purple;*/
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botonNavegador {
+    width: 5em;
+    height: 3em;
+    color: #121331;
+    background-color: #9ad6ff;
+    transition: all 100ms;
+    border: 2px solid #121331;
+
+}
+
+.botonNavegador:hover {
+    background-color: #38A3FA;
+    border: 1px solid #d1edff;
+    color: #d1edff;
+    transition: all 100ms;
+}

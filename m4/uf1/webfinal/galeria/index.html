@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <title>Hola</title>
+    <link href='https://fonts.googleapis.com/css?family=Anybody' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../header.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script> <!--Para iconos https://lordicon.com/icons/system/solid/8-account-->
+    <script type="text/javascript" src="../script.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+    <header>
+      <div class="visible">
+        <div class="icono"> 
+          <h1 class="nombre">Marc Jean</h1>
+        </div>
+        <nav class="botones">
+            <div class="centrador">
+                <lord-icon
+                    src="https://cdn.lordicon.com/hrjifpbq.json"
+                    trigger="hover"
+                    onclick="cambiar('../personal/index.html')">
+                </lord-icon>
+                <lord-icon
+                    src="https://cdn.lordicon.com/wmlleaaf.json"
+                    trigger="hover"
+                    onclick="cambiar('../calendari/index.html')">
+                </lord-icon>
+                <lord-icon
+                    src="https://cdn.lordicon.com/fkaukecx.json"
+                    trigger="hover"
+                    onclick="cambiar('../galeria/index.html')">
+                </lord-icon>
+                <lord-icon
+                    src="https://cdn.lordicon.com/slmechys.json"
+                    trigger="hover"
+                    onclick="cambiar('../formulari/index.html')">
+                </lord-icon>
+            </div>
+        </nav>
+        <div class="dropdown">
+          <div class="tituloDropdown">Altres</div>
+          <div class="list-choice-objects">
+            <label>
+              <button onclick="cambiar('../fails/personal/index.html')"
+              class="boton">(fail) Primera página d'inici</button>
+            </label>
+            <label>
+              <button onclick="cambiar('../fails/calendari/index.html')"
+              class="boton" class="ultimoboton">(fail) Calendari original</button>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="galeria">
+        <span style="--lado:1;">
+            <img src="./fotos/cat2.jpg" onclick="spawn('./fotos/cat2.jpg')">
+        </span>
+        <span style="--lado:2;">
+            <img src="./fotos/cat3.jpg" onclick="spawn('./fotos/cat3.jpg')">
+        </span>
+        <span style="--lado:3;">
+            <video controls autoplay loop>
+                <source src="./fotos/cat1.mp4" onclick="spawn('./fotos/cat1.gif')" type="video/mp4">
+            </video>
+        </span>
+        <span style="--lado:4;">
+            <img src="./fotos/cat8.jpg" onclick="spawn('./fotos/cat8.jpg')">
+        </span>
+        <span style="--lado:5;">
+            <img src="./fotos/cat9.jpg" onclick="spawn('./fotos/cat9.jpg')">
+        </span>
+        <span style="--lado:6;">
+            <img src="./fotos/cat7.jpg" onclick="spawn('./fotos/cat7.jpg')">
+        </span>
+        <span style="--lado:7;">
+            <img src="./fotos/cat5.jpg" onclick="spawn('./fotos/cat5.jpg')">
+        </span>
+        <span style="--lado:8;">
+            <img src="./fotos/cat4.jpg" onclick="spawn('./fotos/cat4.jpg')">
+        </span>
+    </div>
+</body>
+
+<div class="popup">
+    <table>
+        <tr class="divImagen">
+            <td>
+                <img class="imagenPopup" onclick="randomimagen()">
+            </td>
+        </tr>
+        <tr class="navegacion">
+            <td>
+                <div class="botonesPaginador">
+                    <button class="botonNavegador" onclick="randomimagen(-1)">◄</button>
+                    <button class="botonNavegador" onclick="randomimagen(0)"><b>?</b></button>
+                    <button class="botonNavegador" onclick="randomimagen(1)">►</button>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="fondoNegro"></div>
+
+<script>
+    document.addEventListener("keyup", esc);
+    // Lo pongo aqui pq en el ./script.js no va
+    // keyup al soltar la tecla
+</script>
