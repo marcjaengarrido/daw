@@ -1,0 +1,91 @@
+html, body {
+    background-color: #77aef5;
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.generalRaya {
+    background-color: #000000;
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 23px;
+}
+
+.general {
+    background-color: #c7dfff;
+    position: absolute;
+    border-radius: 10px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 5px;
+}
+.margen {
+    margin: 20px;
+}
+
+.titulogeneral {
+    font-size: 90px;
+    display: inline;
+}
+
+.lafoto {
+    border-radius: 6px;
+    width: 80%;
+    margin-left: 1.5%;
+}
+
+.nom {
+    display: inline;
+    font-size: 120px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Silkscreen', sans-serif;
+    background: url(gif5.gif);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+hr {
+    border: 3px solid #000000;
+}
+
+.body {
+    width: 100%;
+    overflow: auto;
+}
+
+.foto {
+    float: left;
+    width: 40%;
+    height: 60%;
+}
+.texto {
+    float: right;
+    width: 60%;
+    position: relative;
+    left: -2%;
+}
+
+ ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+ li {
+    background-color: #77aef5;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 38%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
