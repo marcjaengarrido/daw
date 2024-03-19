@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <title>Hola</title>
+    <link href='https://fonts.googleapis.com/css?family=Anybody' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rubik+Doodle+Shadow&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../header.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script> <!--Para iconos https://lordicon.com/icons/system/solid/8-account-->
+    <script type="text/javascript" src="../script.js"></script>
+<!--
+    #62BCF9
+    #38A3FA
+    #48adff
+-->
+</head>
+<body>
+    <header>
+      <div class="visible">
+        <div class="icono"> 
+          <h1 class="nombre">Marc Jean</h1>
+        </div>
+        <nav class="botones">
+            <div class="centrador">
+                <lord-icon
+                    src="https://cdn.lordicon.com/hrjifpbq.json"
+                    trigger="hover"
+                    onclick="cambiar('../personal/index.html')">
+                </lord-icon>
+                <lord-icon
+                    src="https://cdn.lordicon.com/wmlleaaf.json"
+                    trigger="hover"
+                    onclick="cambiar('../calendari/index.html')">
+                </lord-icon>
+                <lord-icon
+                    src="https://cdn.lordicon.com/fkaukecx.json"
+                    trigger="hover"
+                    onclick="cambiar('../galeria/index.html')">
+                </lord-icon>
+                <lord-icon
+                    src="https://cdn.lordicon.com/slmechys.json"
+                    trigger="hover"
+                    onclick="cambiar('../formulari/index.html')">
+                </lord-icon>
+            </div>
+        </nav>
+        <div class="dropdown">
+          <div class="tituloDropdown">Altres</div>
+          <div class="list-choice-objects">
+            <label>
+              <button onclick="cambiar('../fails/personal/index.html')"
+              class="boton">(fail) Primera página d'inici</button>
+            </label>
+            <label>
+              <button onclick="cambiar('../fails/calendari/index.html')"
+              class="boton" class="ultimoboton">(fail) Calendari original</button>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+    <article class="recuadroGrande">
+      <div class="contenido">
+        <main class="texto">
+          <div>
+            <h3>Mi nombre es . . .</h3>
+            <h1 class="peter">Peter Griffin</h1>
+            <h4>. . . pero tú me puedes llamar <span class="marc">Marc</span>.</h4>
+          </div>
+        </main>
+        <aside class="imagen">
+          <img src="./img/petergriffin.png">
+        </aside>
+      </div>
+    </article>
+</body>
