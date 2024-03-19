@@ -1,0 +1,143 @@
+/*
+    #e4efff
+    #d1edff
+    #9ad6ff
+    #62BCF9
+    #38A3FA
+    */
+body {
+  font-family: 'Anybody';
+  background-color: #e4efff;
+  align-items: center;
+  margin: 1%;
+}
+
+
+header {
+  height: 150px;
+  /*background-color: red;*/
+}
+
+.visible {
+  height: 72px;
+  background-color: rgb(255, 255, 255, 40%);
+  border-radius: 1% /10%;
+}
+
+.botones, .icono, .extras {
+  float: left;
+  height: 100%;
+  padding-top: 10px;
+}
+
+.centrador {
+  width: 60%;
+  /*background-color: red;*/
+  padding: auto 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icono {
+  /*background-color: blue;*/
+  width: 25%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nombre {
+  transition: all 500ms;
+}
+
+.nombre:hover {
+  transform: scale(1.2);
+  transition: all 500ms;
+}
+
+.icono h1 {
+  margin: 0;
+}
+
+.botones {
+  /*background-color: orange;*/
+  width: 50%;
+  align-items: center;
+}
+
+lord-icon {
+  width: 50px;
+  height: 50px;
+  transition: all 500ms;
+}
+
+lord-icon:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  transition: all 500ms;
+}
+
+.dropdown {
+  /*background-color: red;*/
+  position: absolute;
+  right: 10px;
+  height: 100px;
+  margin: auto auto;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0.2em;
+}
+
+.tituloDropdown {
+  height: 51%;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+  display: grid;
+  color: #121331;
+  font-weight: 600;
+  background-color: #9ad6ff;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.list-choice-objects button {
+  width: 100%;
+  color: #121331;
+  background: #9ad6ff;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none; /* elimina el borde de los desplegables */
+  font-size: 15px;
+}
+
+.list-choice-objects {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 500ms;
+}
+
+.dropdown:hover .tituloDropdown {
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #9ad6ff;
+  background-color: #9ad6ff;
+}
+
+.dropdown:hover .list-choice-objects button {
+  background: #9ad6ff;
+}
+
+.dropdown:hover .list-choice-objects button:hover {
+  background: #82c7ff;
+}
+
+.dropdown:hover .list-choice-objects {
+  max-height: 75px;
+}
+
+.dropdown label:last-child button {
+  border-radius: 0 0 10px 10px; /*Borde abajo*/
+}
