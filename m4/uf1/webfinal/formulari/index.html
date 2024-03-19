@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Hola</title>
+  <link href='https://fonts.googleapis.com/css?family=Anybody' rel='stylesheet'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="../header.css">
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <!--Para iconos https://lordicon.com/icons/system/solid/8-account-->
+  <script type="text/javascript" src="../script.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="visible">
+      <div class="icono">
+        <h1 class="nombre">Marc Jean</h1>
+      </div>
+      <nav class="botones">
+        <div class="centrador">
+          <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json" trigger="hover"
+            onclick="cambiar('../personal/index.html')">
+          </lord-icon>
+          <lord-icon src="https://cdn.lordicon.com/wmlleaaf.json" trigger="hover"
+            onclick="cambiar('../calendari/index.html')">
+          </lord-icon>
+          <lord-icon src="https://cdn.lordicon.com/fkaukecx.json" trigger="hover"
+            onclick="cambiar('../galeria/index.html')">
+          </lord-icon>
+          <lord-icon src="https://cdn.lordicon.com/slmechys.json" trigger="hover"
+            onclick="cambiar('../formulari/index.html')">
+          </lord-icon>
+        </div>
+      </nav>
+      <div class="dropdown">
+        <div class="tituloDropdown">Altres</div>
+        <div class="list-choice-objects">
+          <label>
+            <button onclick="cambiar('../fails/personal/index.html')" class="boton">(fail) Primera página
+              d'inici</button>
+          </label>
+          <label>
+            <button onclick="cambiar('../fails/calendari/index.html')" class="boton" class="ultimoboton">(fail)
+              Calendari original</button>
+          </label>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <form action="https://alumnat.cat/form" method="POST">
+      <div class="row">
+        <div class="columna-4">
+          <label for="nom">Nom:</label>
+          <input type="text" class="nom" name="nom" required>
+        </div>
+        <div class="columna-1"></div>
+        <div class="columna-5">
+          <label for="cognoms">Cognoms:</label>
+          <input type="text" class="cognoms" name="cognoms" required>
+        </div>
+        <div class="columna-1"></div>
+        <div class="columna-2">
+          <label for="edat">Edat:</label>
+          <input type="number" class="edat" name="edat" required>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="columna-3">
+          <label for="dni">DNI:</label>
+          <input type="text" class="dni" name="dni" required>
+        </div>
+        <div class="columna-1"></div>
+        <div class="columna-6">
+          <label for="mail">Mail:</label>
+          <input type="email" class="mail" name="mail" required>
+        </div>
+        <div class="columna-1"></div>
+        <div class="columna-2">
+          <label for="estudis">Estudis:</label>
+          <select class="estudis" name="estudis" required>
+            <option value="eso">ESO</option>
+            <option value="batxillerat">Batxillerat</option>
+            <option value="cicle">Cicle Formatiu</option>
+            <option value="universitat">Universitat</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="columna-13">
+          <label for="explicacio">Explicació:</label>
+          <textarea class="explicacio" name="explicacio" rows="4" required></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="columna-6">
+          <fieldset>
+            <legend>Sexe:</legend>
+            <table>
+              <tr>
+                <td>
+                  <label><input type="radio" name="sexe" value="home" required />Home</label>
+                </td>
+                <td>
+                  <label><input type="radio" name="sexe" value="dona" required />Dona</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label><input type="radio" name="sexe" value="altres" required />Altres</label>
+                </td>
+                <td>
+                  <label><input type="radio" name="sexe" value="na" required />No vull dir</label>
+                </td>
+              </tr>
+            </table>
+            <br>
+          </fieldset>
+        </div>
+        <div class="columna-1"></div>
+        <div class="columna-6">
+          <div>
+            <label for="color">Color preferit:</label>
+            <input type="color" class="color" name="color" required>
+          </div>
+          <div class="columna-6 fotodiv">
+            <label for="fotografia">Fotografia:</label>
+            <input type="file" class="fotografia" name="fotografia" accept="image/*" required>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="columna-13">
+          <label>
+            <input type="checkbox" name="accepta_privacitat" required>
+            Accepto la política de privacitat de l'empresa
+          </label>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="columna-13">
+          <button type="submit">Enviar</button>
+        </div>
+      </div>
+    </form>
+  </main>
+</body>
