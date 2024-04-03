@@ -60,3 +60,13 @@ Finalment generem l'arxiu .html. Aquí simplement especifiquem que obrim un arxi
 with open("resultat.html", "w") as arxiu:
     arxiu.write(textHTML)
 ```
+
+## A partir de ahora veremos
+datos **que definitivamente** debemos *incluir* en nuestra _documentación_,
+### ya que explica
+*las aplicaciones que* tiene **nuestro** codigo en la vida real:
+1. Oficina de trabajo
+* Tarea de script de transformación de `XML` a `HTML`
+* Reestructuración de archivos `XML`
+* Etcétera 
+2. Casa
