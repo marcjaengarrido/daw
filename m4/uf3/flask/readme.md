@@ -6,12 +6,17 @@
 
 #### 1. Inicialització entorn virtual (venv)
 
-Informació: https://docs.python.org/es/3/library/venv.html
-Per començar a treballar amb un entorn virtual, el primer pas és crear-lo. Per això, obre un terminal integrat des del Visual Code i executa:
+L'objectiu d'un entorn virtual és principalment crear, per dir-ho d'alguna forma, una nova "instancia" de python. En aquest lloc podem tenir paquest diferents als que tenim per defecte. En comparació es podría considerar com una nova dimensió de python.
+
+El procés d'activació es bastant senzill. Primer executarem la seguent comanda al directori on volguem fer servir l'entorn. Aquesta será l'encarregada de crear un directori amb tot el que necessita venv: 
+
+```
 Amb linux:
 python3 -m venv .venv
 Amb windows:
 python -m venv .venv
+```
+
 El següent pas és activar-lo. Per això executa:
 	Amb linux:
 		source .venv/bin/activate
