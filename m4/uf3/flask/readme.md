@@ -24,6 +24,8 @@ Amb Windows:
    .venv\Scripts\activate
 ```
 
+I boom, ja hauriem de ser-hi dins.
+
 Al prompt veuràs que ets dins de l'entorn:
 Ara ja pots instal·lar els paquets que necessitis, com són:
 	pip install flask
