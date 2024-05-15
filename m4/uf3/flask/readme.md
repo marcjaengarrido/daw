@@ -24,7 +24,7 @@ Amb Windows:
    .venv\Scripts\activate
 ```
 
-I boom, ja hauriem de ser-hi dins.
+I boom, ja hauriem de ser-hi dins. Si veiem un `(venv)` a l'inici del nostre prompt, és que tot ha anat bé.
 
 Al prompt veuràs que ets dins de l'entorn:
 Ara ja pots instal·lar els paquets que necessitis, com són:
