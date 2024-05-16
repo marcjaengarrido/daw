@@ -38,3 +38,5 @@ Finalment, per a Visual Code l'extensió Python Environment Manager facilita la 
 #### 2. Execució del programari
 
 #### 3. Modes: remot i local
+
+
