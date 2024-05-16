@@ -50,4 +50,5 @@ Iniciar el programa és molt fàcil. Obrim la ruta on es troba el nostre arxiu `
 
 #### 3. Modes: remot i local
 
+![Remot Local Codi](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/remotlocal.png?raw=true)
 
