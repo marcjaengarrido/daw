@@ -21,7 +21,7 @@ Ara ho hem d'activar. Bàsicament el que fa aquesta "activació" es re definir v
 
 Amb linux:
 * `source .venv/bin/activate`
-* 
+
 Amb Windows:
 * `.venv\Scripts\activate`
 
