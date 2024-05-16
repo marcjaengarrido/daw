@@ -35,9 +35,13 @@ Si volem tornar a la nostra terminal de tota la vida podem o bé petar el procé
 
 Ara que tenim el nostre entorn virtual, ens podem facilitar una mica la vida. Podem descarregar l'extensió anomenada [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager) amb l'objectiu de facilitar l'administració d'entorns virtuals. Mira que bonic:
 
-![Extensi](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/pythonenvextension.png?raw=true)
+![Extensió Python Environment Manager](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/pythonenvextension.png?raw=true)
 
 #### 2. Execució del programari
+
+Iniciar el programa és molt fàcil. Obrim la ruta on es troba el nostre arxiu `app.py` i executem la comanda `flask run` i ja ho hem encés
+
+![Execució del programari](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/flaskrun.png?raw=true)
 
 #### 3. Modes: remot i local
 
