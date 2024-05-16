@@ -4,7 +4,7 @@
 
 ### INSTRUCCIONS DESPLEGAMENT
 
-#### 1. Inicialització entorn virtual (venv)
+#### 1. Inicialització i ús d'un entorn virtual (venv)
 
 L'objectiu d'un entorn virtual és principalment crear, per dir-ho d'alguna forma, una nova "instancia" de python. En aquest lloc podem tenir paquest diferents als que tenim per defecte. En comparació es podría considerar com una nova dimensió de python.
 
@@ -27,14 +27,13 @@ Amb Windows:
 
 I boom, ja hauriem de ser-hi dins. Si veiem un `(.venv)` a l'inici del nostre prompt, és que tot ha anat bé.
 
-![Foto terminal venv](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/venv.png?raw=true)
+![Foto terminal venv activado](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/venv.png?raw=true)
 
-Al prompt veuràs que ets dins de l'entorn:
-Ara ja pots instal·lar els paquets que necessitis, com són:
-	pip install flask
-	pip install feedparser
-Per sortir de l'entorn virtual, executa:
-	deactivate
+Si volem tornar a la nostra terminal de tota la vida podem o bé petar el procés de la terminmal actual o fer servir la comanda `deactivate`:
+
+![Foto terminal venv deactivate](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/deactivate.png?raw=true)
+
+
 Finalment, per a Visual Code l'extensió Python Environment Manager facilita la integració entre el Visual Code i l'entorn virtual.
 
 #### 2. Execució del programari
