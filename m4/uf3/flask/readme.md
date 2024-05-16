@@ -17,12 +17,11 @@ Amb windows:
 * `python -m venv .venv`
 
 Ara ho hem d'activar. Bàsicament el que fa aquesta "activació" es re definir variables temporals de la terminal, modificant rutes i/o el mateix prompt:
-```
+
 Amb linux:
-   source .venv/bin/activate
+* `source .venv/bin/activate`
 Amb Windows:
-   .venv\Scripts\activate
-```
+* `.venv\Scripts\activate`
 
 I boom, ja hauriem de ser-hi dins. Si veiem un `(venv)` a l'inici del nostre prompt, és que tot ha anat bé.
 
