@@ -12,7 +12,7 @@ El procés d'activació es bastant senzill. Primer executarem la seguent comanda
 
 Amb linux:
 * `python3 -m venv .venv`
-* 
+
 Amb windows:
 * `python -m venv .venv`
 
