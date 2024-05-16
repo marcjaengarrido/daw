@@ -33,8 +33,9 @@ Si volem tornar a la nostra terminal de tota la vida podem o bé petar el procé
 
 ![Foto terminal venv deactivate](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/deactivate.png?raw=true)
 
+Ara que tenim el nostre entorn virtual, ens podem facilitar una mica la vida. Podem descarregar l'extensió anomenada [Python Environment Manager](https://marketplace.visualstudio.com/items?itemName=donjayamanne.python-environment-manager) amb l'objectiu de facilitar l'administració d'entorns virtuals. Mira que bonic:
 
-Finalment, per a Visual Code l'extensió Python Environment Manager facilita la integració entre el Visual Code i l'entorn virtual.
+![Extensi](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/pythonenvextension.png?raw=true)
 
 #### 2. Execució del programari
 
