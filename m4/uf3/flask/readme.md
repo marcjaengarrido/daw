@@ -9,12 +9,12 @@
 L'objectiu d'un entorn virtual és principalment crear, per dir-ho d'alguna forma, una nova "instancia" de python. En aquest lloc podem tenir paquest diferents als que tenim per defecte. En comparació es podría considerar com una nova dimensió de python.
 
 El procés d'activació es bastant senzill. Primer executarem la seguent comanda al directori on volguem fer servir l'entorn. Aquesta será l'encarregada de crear un directori amb tot el que necessita venv: 
-```
+
 Amb linux:
-   python3 -m venv .venv
+* `python3 -m venv .venv`
+* 
 Amb windows:
-   python -m venv .venv
-```
+* `python -m venv .venv`
 
 Ara ho hem d'activar. Bàsicament el que fa aquesta "activació" es re definir variables temporals de la terminal, modificant rutes i/o el mateix prompt:
 ```
