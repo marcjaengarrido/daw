@@ -25,7 +25,9 @@ Amb linux:
 Amb Windows:
 * `.venv\Scripts\activate`
 
-I boom, ja hauriem de ser-hi dins. Si veiem un `(venv)` a l'inici del nostre prompt, és que tot ha anat bé.
+I boom, ja hauriem de ser-hi dins. Si veiem un `(.venv)` a l'inici del nostre prompt, és que tot ha anat bé.
+
+![Foto terminal venv](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/venv.png?raw=true)
 
 Al prompt veuràs que ets dins de l'entorn:
 Ara ja pots instal·lar els paquets que necessitis, com són:
