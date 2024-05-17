@@ -46,6 +46,13 @@ Ara que tenim el nostre entorn virtual, ens podem facilitar una mica la vida. Po
 
 Abans s'executar el script hem d'instalar els paquets requerits pel mateix.
 
+Els que necessitem son feedparser i flask:
+
+```
+pip install feedparser
+pip install flask
+```
+
 ![Instalació feedparser](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/installfeedparser.png?raw=true)
 
 ![Instalació flask](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/installflask.png?raw=true)
