@@ -54,6 +54,8 @@ Al codi podem veure clarament que tenim dos formes d'agafar les dades.
 
 ![Remot Local Codi](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/remotlocal.png?raw=true)
 
-Segons la [documentació de feedparser](https://pythonhosted.org/feedparser/introduction.html), podem obtenir el xml de pràcticament qualsevol lloc, ja siguin arxius locals, remots o fins i tot cadenes de text. Així que simplement, el que fem al codi és o seleccionar una ruta local amb els nostres arxius i secció variable o ruta remota (domini [lavanguardia.com](https://www.lavanguardia.com)) al seu rss.
+Segons la [documentació de feedparser](https://pythonhosted.org/feedparser/introduction.html), podem obtenir el xml de pràcticament qualsevol lloc, ja siguin arxius locals, remots o fins i tot cadenes de text. Així que simplement, el que fem al codi és o seleccionar una ruta local amb els nostres arxius i secció depenent d'una variable o ruta remota (domini [lavanguardia.com](https://www.lavanguardia.com)) al seu rss on la ruta també compta amb la nostra variable de secció.
 
 ![Documentació feedparser](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/feedparser.png?raw=true)
+
+
