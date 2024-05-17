@@ -2,12 +2,13 @@
 ### ENUNCIAT
 > Crear un fitxer README.md (markdown baby!) a l'arrel del projecte (és a dir, al mateix nivell que app.py) amb les instruccions per a desplegar l'aplicatiu. Ha d'incloure les instruccions de l'entorn virtual i com iniciar l'aplicatiu. També ha d'incloure com fer servir el mode remot (on es fa servir l'XML directament de la web de la vanguardia) o local (on es fa servir el XML descarregat). El README ha d'incloure algun enllaç (per exemple, a la doc de flask, o una web on expliqui que són els entorns virtuals...).
 
-### ENUNCIAT
+### INDEX
 
-1. Skibidi
-2. Toilet
+1. [Inicialització i ús d'un entorn virtual (venv)](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#1-inicialitzaci%C3%B3-i-%C3%BAs-dun-entorn-virtual-venv)
+2. [Execució del programari](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#2-execuci%C3%B3-del-programari)
+3. [Modes: remot i local](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#3-modes-remot-i-local)
 
-### INSTRUCCIONS DESPLEGAMENT
+### DOCUMENTACIÓ REAL
 
 #### 1. Inicialització i ús d'un entorn virtual (venv)
 
