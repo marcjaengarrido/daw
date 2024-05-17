@@ -46,7 +46,7 @@ Ara que tenim el nostre entorn virtual, ens podem facilitar una mica la vida. Po
 
 Abans s'executar el script hem d'instalar els paquets requerits pel mateix.
 
-Els que necessitem son feedparser i flask:
+Els que necessitem son [feedparser](https://pypi.org/project/feedparser/) i [flask](https://pypi.org/project/Flask/):
 
 ```
 pip install feedparser
