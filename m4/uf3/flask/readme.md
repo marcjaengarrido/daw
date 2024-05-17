@@ -44,6 +44,13 @@ Ara que tenim el nostre entorn virtual, ens podem facilitar una mica la vida. Po
 
 #### 2. Execució del programari
 
+Abans s'executar el script hem d'instalar els paquets requerits pel mateix.
+
+![Instalació feedparser](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/installfeedparser.png?raw=true)
+
+![Instalació flask](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/installflask.png?raw=true)
+
+
 Iniciar el programa és molt fàcil. Obrim la ruta on es troba el nostre arxiu `app.py` i executem la comanda `flask run` i ja ho hem encés
 
 ![Execució del programari](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/flaskrun.png?raw=true)
