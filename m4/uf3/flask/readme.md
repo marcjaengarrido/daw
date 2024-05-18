@@ -10,6 +10,8 @@
 
 ### DOCUMENTACIÓ REAL
 
+![GIF flask](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/allhailflask.gif?raw=true)
+
 #### 1. Inicialització i ús d'un entorn virtual (venv)
 
 L'objectiu d'un entorn virtual és principalment crear, per dir-ho d'alguna forma, una nova "instancia" de python. En aquest lloc podem tenir paquest diferents als que tenim per defecte. En comparació es podría considerar com una nova dimensió de python.
