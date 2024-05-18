@@ -31,7 +31,7 @@ Amb linux:
 * `source .venv/bin/activate`
 
 Amb Windows:
-* `.venv\Scripts\activate`
+* `.\.venv\bin\Activate.ps1` <!-- El de el enunciado no me iba -->
 
 I boom, ja hauriem de ser-hi dins. Si veiem un `(.venv)` a l'inici del nostre prompt, és que tot ha anat bé.
 
@@ -60,6 +60,10 @@ pip install flask
 
 ![Instalació flask](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/installflask.png?raw=true)
 
+(En veritat hi han més, però els podem instalar fàcilment amb la seguent comanda gràcies a que ja en tenim un arxiu `requirements.txt` preparat)
+```
+pip install -r requirements.txt
+```
 
 Iniciar el programa és molt fàcil. Obrim la ruta on es troba el nostre arxiu `app.py` i executem la comanda `flask run` i ja ho hem encés
 
