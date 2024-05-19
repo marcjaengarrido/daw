@@ -105,9 +105,9 @@ git push heroku master
 
 ### EXTRAS
 * 1\. Afegir el Punt Avui. Fet. La única diferencia amb el de la vanguardia és que el buscador no funciona per culpa del maleit CORS. 
-* 2\. JavaScript:
-  * He decidit afegir una mica de JavaScript. Bàsicament les dues cosetes que he implementat han sigut la barra de búsqueda, la cuál et portarà a la secció de qualsevol tema que hagi sigut introduit sempre i quan aquest estigui disponible a el RSS de La Vanguardia. Per a revisar si existeix o no, es fa una petició a la pàgina web.
-  * Ls
+* 2\. JavaScript. He decidit afegir una mica de JavaScript:
+  * La primera cosa que he implementat ha sigut la barra de búsqueda, la cuál et portarà a la secció de qualsevol tema que hagi sigut introduit sempre i quan aquest estigui disponible a el RSS de La Vanguardia. Per a revisar si existeix o no, es fa una petició a la pàgina web.
+  * La segona cosa és, com s'indicava a l'enunciat, que les imatges es fagin grans. No nomès al clicar la imatge, però en clicar qualsevol punt del div de la noticia excepte el títol, s'obrirà la imatge en gran. Si fem click en qualsevol lloc de la fniestra podrem sortir de la imatge de nou i, en cas de no existir-hi cap imatge, veurem uns gatets. 
 * 3\. CSS Propi
 * 4\. ~~Personalitzar amb SASS~~
 * 5\. Pujar el codi a GIT(hub?)
