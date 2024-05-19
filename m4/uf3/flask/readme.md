@@ -82,14 +82,14 @@ Segons la [documentació de feedparser](https://pythonhosted.org/feedparser/intr
 
 ### ERRORS (COMO ODIO LOS ERRORES)
 
-CORS. Los servidores (a pesar de ser por cuestiones de seguridad) últimamente se han vuelto muy 'picky'. CORS és el ejemplo de ello. De lo que me quejo especificamente es algo conocido como Access-Control-Allow-Origin. Básicamente de lo que trata todo es simplemente que un servidor puede escoger si permitir a otros servidores acceder a mis archivos públicos o no. El input y botón para buscar en mi navbar mira si existe el rss del tema introducido en la vanguardia y en caso de existir abriría su pestaña, cargando xml remoto. Para hacer eso, hacía una petición al rss en cuestión. Por alguna razón, después de buscar entre 1 y 3 veces, me saltaba el error de CORS que sería el siguiente:
+CORS. Los servidores (a pesar de ser por cuestiones de seguridad) últimamente se han vuelto muy 'picky'. CORS és el ejemplo de ello. De lo que me quejo especificamente es algo conocido como Access-Control-Allow-Origin. Básicamente de lo que trata es simplemente que un servidor puede escoger si permitir a otros servidores acceder a mis archivos públicos desde URLs externos o no. El input y botón para buscar en mi navbar mira si existe el rss del tema introducido en la vanguardia y en caso de existir abriría su pestaña, cargando xml remoto. Para hacer eso, hacía una petición al rss en cuestión. Por alguna razón, después de buscar entre 1 y 3 veces, me saltaba el error de CORS que sería el siguiente:
 
-![alt text](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/errorcors.png?raw=true)
+![Error Cors](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/errorcors.png?raw=true)
 
 
 No sé por que, por alguna razón quería hacerle captura y ya no me volvió a aparecer. Menos mal.
 
-![alt text](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/consolacors.png?raw=true)
+![Página Funcionando Correctamente](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/consolacors.png?raw=true)
 
 Mi intención era descargar el [proxy cors-anywhere de Rob--W](https://github.com/Rob--W/cors-anywhere/) y seguir el proceso. Básicamente lo que hace esto es hacer de intermediario (sería el servidor, heroku en este caso) entre nosotros y la vanguardia y, por así decirlo, canaliza las respuestas hacia nosotros. De esta forma, la respuesta está permitida por la vanguardia y, al mismo tiempo, nosotros no usamos el método `mode: 'no-cors'` que, por si no se sabía, [hace que la página no pueda ver la respuesta de la petición](https://developer.mozilla.org/en-US/docs/Web/API/Request/mode#no-cors) (`dice 'In addition, JavaScript may not access any properties of the resulting Response.'`), volviendose inútil para nuestra situación.
 
