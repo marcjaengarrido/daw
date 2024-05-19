@@ -101,3 +101,9 @@ npm install
 heroku create
 git push heroku master
 ```
+
+
+### EXTRAS
+* JavaScript:
+ * He decidit afegir una mica de JavaScript. Bàsicament les dues cosetes que he implementat han sigut la barra de búsqueda, la cuál et portarà a la secció de qualsevol tema que hagi sigut introduit sempre i quan aquest estigui disponible a el RSS de La Vanguardia. Per a revisar si existeix o no, es fa una petició a la pàgina web.
+ * Ls
