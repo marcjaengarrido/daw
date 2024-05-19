@@ -104,11 +104,11 @@ git push heroku master
 
 
 ### EXTRAS
-1. ~~Afegir el Punt Avui~~
-2. JavaScript:
+* 1. ~~Afegir el Punt Avui~~
+* 2. JavaScript:
   * He decidit afegir una mica de JavaScript. Bàsicament les dues cosetes que he implementat han sigut la barra de búsqueda, la cuál et portarà a la secció de qualsevol tema que hagi sigut introduit sempre i quan aquest estigui disponible a el RSS de La Vanguardia. Per a revisar si existeix o no, es fa una petició a la pàgina web.
   * Ls
-3. CSS Propi
-4. ~~Personalitzar amb SASS~~
-5. Pujar el codi a GIT(hub?)
-6. Icones de font-awesome (font-awesome és una porqueria. Jo he fet servir [lord icon](https://lordicon.com) en lloc)
+* 3. CSS Propi
+* 4. ~~Personalitzar amb SASS~~
+* 5. Pujar el codi a GIT(hub?)
+* 6. Icones de font-awesome (font-awesome és una porqueria. Jo he fet servir [lord icon](https://lordicon.com) en lloc)
