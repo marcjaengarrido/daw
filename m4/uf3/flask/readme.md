@@ -8,7 +8,7 @@
 2. [Execució del programari](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#2-execuci%C3%B3-del-programari)
 3. [Modes: remot i local](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#3-modes-remot-i-local)
 * [ERRORS](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#errors-como-odio-los-errores)
-* [EXTRAS](https://github.com/marcjaengarrido/daw/edit/main/m4/uf3/flask/readme.md#extras)
+* [EXTRAS](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#extras)
 
 ### DOCUMENTACIÓ REAL
 
