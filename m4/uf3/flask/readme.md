@@ -112,3 +112,14 @@ git push heroku master
 * 4\. ~~Personalitzar amb SASS~~
 * 5\. Pujar el codi a GIT(hub?)
 * 6\. Icones de font-awesome (font-awesome és una porqueria. Jo he fet servir [lord icon](https://lordicon.com) en lloc)
+
+<!-- No se puede hacer esto?
+
+1. Hola
+2. Que tal
+  * Nested
+  * Otro nested
+3. Adiós
+
+Si se puede pero los nested no tabulan. Vaya porquería
+-->
