@@ -7,6 +7,7 @@
 1. [Inicialització i ús d'un entorn virtual (venv)](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#1-inicialitzaci%C3%B3-i-%C3%BAs-dun-entorn-virtual-venv)
 2. [Execució del programari](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#2-execuci%C3%B3-del-programari)
 3. [Modes: remot i local](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#3-modes-remot-i-local)
+* [ERRORS](https://github.com/marcjaengarrido/daw/blob/main/m4/uf3/flask/readme.md#errors-como-odio-los-errores)
 
 ### DOCUMENTACIÓ REAL
 
